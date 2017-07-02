@@ -4,17 +4,18 @@ import ssl
 context = ssl._create_unverified_context()
 
 QUOTES_URL = "https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quotes_utf-8.txt"
+quotes = []
 
-thepage = urlopen(QUOTES_URL, context=context).read()
-quote_list = thepage.split('*')
+for quote in urlopen(QUOTES_URL, context=context).readlines():
+    quotes.append(str(quote.strip(), encoding="utf-8"))
 
-a = quote_list
+a = quotes
 
 translations = {item : a[index+1] for index, item in enumerate(a) if index % 2 == 0}
 
 print('-' * 10)
 time.sleep(1)
-print("Version 4.0\nCalvin Xu 制作")
+print("Version 5.0\nCalvin Xu 制作")
 time.sleep(1)
 print("输入 /help 得到帮助")
 time.sleep(1)
@@ -43,6 +44,9 @@ try:
 
                   Ver.4.0
                   加入完整三篇, excited!
+
+                  Ver.5.0
+                  所有文档存储于服务器端, 出了事我们跑得比谁都快
                   """)
             print('-' * 10)
         else:
@@ -96,24 +100,21 @@ try:
                   """)
             choice = input("输入: ")
             if choice == "1":
-                with open("quote1.txt", "r") as (quote):
-                    print("----------视察二院----------\n")
-                    for line in quote:
-                        print(quote.readline())
+                print("----------视察二院----------\n")
+                for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote1.txt", context=context).readlines():
+                        print(str(quote, encoding="utf-8"))
                         time.sleep(0.5)
 
             elif choice == "2":
-                with open("quote2.txt", "r") as (quote):
-                    print("----------怒斥记者----------\n")
-                    for line in quote:
-                        print(quote.readline())
+                print("----------怒斥记者----------\n")
+                for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote2.txt", context=context).readlines():
+                        print(str(quote, encoding="utf-8"))
                         time.sleep(1)
 
             elif choice == "3":
-                with open("quote3.txt", "r") as (quote):
-                    print("----------谈笑风生----------\n")
-                    for line in quote:
-                        print(quote.readline())
+                print("----------谈笑风生----------\n")
+                for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote3.txt", context=context).readlines():
+                        print(str(quote, encoding="utf-8"))
                         time.sleep(0.1)
 
             else:
