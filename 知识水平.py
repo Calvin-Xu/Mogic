@@ -17,7 +17,7 @@ try:
 
     print('-' * 10)
     time.sleep(1)
-    print("Version 5.0\nCalvin Xu 制作")
+    print("Version 5.1\nCalvin Xu 制作")
     time.sleep(1)
     print("输入 /help 得到帮助")
     time.sleep(1)
@@ -49,6 +49,8 @@ try:
 
                       Ver.5.0
                       所有文档存储于服务器端, 出了事我们跑得比谁都快
+                      Ver.5.1
+                      网络连接错误提示
                       """)
                 print('-' * 10)
             else:
