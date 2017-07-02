@@ -1,14 +1,16 @@
 import time
 from urllib.request import urlopen
+import ssl
+context = ssl._create_unverified_context()
 
-with open("quotes_utf-8.txt", "r") as (file):
-    raw = file.read()
-    quote_list = raw.split('*')
+QUOTES_URL = "https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quotes_utf-8.txt"
+
+thepage = urlopen(QUOTES_URL, context=context).read()
+quote_list = thepage.split('*')
 
 a = quote_list
 
 translations = {item : a[index+1] for index, item in enumerate(a) if index % 2 == 0}
-
 
 print('-' * 10)
 time.sleep(1)
