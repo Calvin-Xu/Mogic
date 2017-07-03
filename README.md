@@ -2,6 +2,8 @@
 
 This is a simple project maintained by a 蛤丝.
 
+> 你们给我搞的这本东西啊，excited！
+
 ## Why Use Mogic
 
 * Will run anywhere: All files the script requests are stored on Github server.
@@ -31,6 +33,8 @@ This is a simple project maintained by a 蛤丝.
 所有文档存储于服务器端, 出了事我们跑得比谁都快
 * Ver.5.1
 网络连接错误提示
+
+## Info
 
 **Please contribute if you wish to.**
 
