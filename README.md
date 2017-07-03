@@ -34,6 +34,9 @@ This is a simple project maintained by a 蛤丝.
 * Ver.5.1
 网络连接错误提示
 
+* Ver.6.0
+完善模糊搜索功能，使用算法而非手动排除
+
 ## Info
 
 **Please contribute if you wish to.**

@@ -51,6 +51,9 @@ try:
                       所有文档存储于服务器端, 出了事我们跑得比谁都快
                       Ver.5.1
                       网络连接错误提示
+
+                      Ver.6.0
+                      完善模糊搜索功能，使用算法而非手动排除                      
                       """)
                 print('-' * 10)
             else:
@@ -164,7 +167,21 @@ try:
                     print("你可能找的是\"就把我批判一番\"（原话如此）。")
 
                 else:
+                    pool = list(translations.keys())
+
+                    element = list(req)
+
+                    for seek in element:
+                        indices = [i for i, s in enumerate(pool) if seek in s]
+                        tar1 = int(indices[-1])
+                        tar2 = int(indices[0])
+
                     print(f"无 \"{req}\" 条目。请重新输入")
+                    print(f"""你可能找的是
+\"{pool[tar1]}\" 或
+\"{pool[tar2]}\"
+(原话如此）。""")
+
                 print('-' * 10)
             else:
                 pass
