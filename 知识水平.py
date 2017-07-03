@@ -22,7 +22,7 @@ try:
     print("输入 /help 得到帮助")
     time.sleep(1)
     print('-' * 10)
-    time.sleep(1)
+    time.sleep(0.5)
 
     try:
         while True:

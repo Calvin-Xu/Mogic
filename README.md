@@ -2,7 +2,7 @@
 
 This is a simple project maintained by a 蛤丝.
 
-## Advantages of Using Mogic
+## Why Use Mogic
 
 * Will run anywhere: All files the script requests are stored on Github server.
     * if you want the (old) local version please request
@@ -12,6 +12,26 @@ This is a simple project maintained by a 蛤丝.
     * please contribute quotations (Chinese & English) to ```quotes_utf-8.txt``` (please follow previous examples)
 * Comprehensive yet lightweight.
 * Actively being developed
+
+## Version History
+* Ver.1.0:
+    * 输入中文，得到长者英文语录翻译，提高知识水平
+    * ( NFLS 洋文好的人多的很哪!)
+    * 输入 "语录", 得到人生经验
+    * 输入"三篇"阅读完整蛤三篇
+    * 按 e 可赛艇
+    * 更多资源请按 r
+
+* Ver.2.0: 
+加入模糊搜索功能
+* Ver.3.0:
+加入外挂文档功能
+* Ver.4.0
+加入完整三篇, excited!
+* Ver.5.0
+所有文档存储于服务器端, 出了事我们跑得比谁都快
+* Ver.5.1
+网络连接错误提示
 
 **Please contribute if you wish to.**
 
