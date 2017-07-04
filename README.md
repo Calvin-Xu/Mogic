@@ -7,8 +7,8 @@ This is a simple project maintained by a 蛤丝.
 ## Why Use Mogic
 
 * Will run anywhere: All files the script requests are stored on Github server.
-* Networking error report
-* Easy to use command-line interface
+* Network error report
+* Clear command-line interface
 * **Expandable & Modifiable**: easily expand by adding quotations
     * please contribute quotations (Chinese & English) to ```quotes_utf-8.txt``` (please follow previous examples)
 * Comprehensive yet lightweight.
@@ -48,4 +48,4 @@ C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxu
 
 天若有情天亦老，请为项目续一秒
 
-![Tea](https://github.com/Calvin-Xu/Mogic/blob/master/Moha1.gif)
+![The Elderly](https://github.com/Calvin-Xu/Mogic/blob/master/Moha1.gif)
