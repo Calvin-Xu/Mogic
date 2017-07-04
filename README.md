@@ -48,4 +48,4 @@ C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxu
 
 天若有情天亦老，请为项目续一秒
 
-![Tea](Mogic/Moha1.gif)
+![Tea](https://github.com/Calvin-Xu/Mogic/blob/master/Moha1.gif)
