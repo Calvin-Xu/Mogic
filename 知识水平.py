@@ -34,8 +34,8 @@ try:
                       Ver.1.0:
                       输入中文，得到长者英文语录翻译，提高知识水平
                       ( NFLS 洋文好的人多的很哪!)
-                      输入 \"语录\", 得到人生经验
-                      输入\"三篇\"阅读完整蛤三篇
+                      输入 \"/语录\", 得到人生经验
+                      输入\"/三篇\"阅读完整蛤三篇
                       按 e 可赛艇
                       更多资源请按 r
 
@@ -62,7 +62,7 @@ try:
                 pass
 
 
-            if req == "语录":
+            if req == "/语录":
                 print('-' * 10)
                 print("长者 (前国家领导人江泽民) 语录 (中英对照):")
                 for ori, trans in list(translations.items()):
@@ -101,7 +101,7 @@ try:
                 pass
 
 
-            if req == "三篇":
+            if req == "/三篇":
                 print("""
                       视察二院，请按 1
                       怒斥记者，请按 2
@@ -130,7 +130,7 @@ try:
                     pass
 
 
-            if req != "/help" and req != "语录" and req != "e" and req != "r" and req != "三篇":
+            if req != "/help" and req != "/语录" and req != "e" and req != "r" and req != "/三篇":
                 print('-' * 10)
                 print(f"你输入了: \"{req}\"")
                 result = translations.get(req)
