@@ -37,6 +37,9 @@ This is a simple project maintained by a 蛤丝.
 * Ver.6.0
 完善模糊搜索功能，使用算法而非手动排除
 
+* Ver.6.1
+模糊搜索 bug fix
+
 ## Info
 
 **Please contribute if you wish to.**
