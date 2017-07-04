@@ -47,3 +47,5 @@ This is a simple project maintained by a 蛤丝.
 C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxuab/Knowledge_base)
 
 天若有情天亦老，请为项目续一秒
+
+![Tea](Mogic/Moha1.gif)
