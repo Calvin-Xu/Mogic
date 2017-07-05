@@ -38,20 +38,37 @@ try:
                       输入\"/三篇\"阅读完整蛤三篇
                       按 e 可赛艇
                       更多资源请按 r
+                      """)
 
-                      Ver.2.0: 加入模糊搜索功能
+                time.sleep(2)
 
+                print("""
+                      Ver.2.0:
+                      加入模糊搜索功能
+                      """)
+                time.sleep(0.5)
+
+                print("""
                       Ver.3.0:
                       加入外挂文档功能
+                      """)
+                time.sleep(0.5)
 
+                print("""
                       Ver.4.0
                       加入完整三篇, excited!
+                      """)
+                time.sleep(0.5)
 
+                print("""
                       Ver.5.0
                       所有文档存储于服务器端, 出了事我们跑得比谁都快
                       Ver.5.1
                       网络连接错误提示
+                      """)
+                time.sleep(0.5)
 
+                print("""
                       Ver.6.0
                       完善模糊搜索功能，使用算法而非手动排除
                       Ver.6.1
@@ -109,19 +126,19 @@ try:
                       """)
                 choice = input("输入: ")
                 if choice == "1":
-                    print("----------视察二院----------\n")
+                    print("----------加载中...视察二院----------\n")
                     for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote1.txt", context=context).readlines():
                             print(str(quote, encoding="utf-8"))
                             time.sleep(0.5)
 
                 elif choice == "2":
-                    print("----------怒斥记者----------\n")
+                    print("----------加载中...怒斥记者----------\n")
                     for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote2.txt", context=context).readlines():
                             print(str(quote, encoding="utf-8"))
                             time.sleep(1)
 
                 elif choice == "3":
-                    print("----------谈笑风生----------\n")
+                    print("----------加载中...谈笑风生----------\n")
                     for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote3.txt", context=context).readlines():
                             print(str(quote, encoding="utf-8"))
                             time.sleep(0.1)
@@ -187,6 +204,8 @@ try:
 
                         print('-' * 10)
                     except IndexError:
+                        print("模糊搜索无效，请重新输入，提供更多关键词。")
+                    except NameError:
                         print("模糊搜索无效，请重新输入，提供更多关键词。")
             else:
                 pass
