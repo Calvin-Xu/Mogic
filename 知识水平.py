@@ -19,7 +19,7 @@ try:
 
     print('-' * 10)
     time.sleep(1)
-    print("Version 7.0\nCalvin Xu 制作")
+    print("Version 7.1\nCalvin Xu 制作")
     time.sleep(1)
     print("输入 /help 得到帮助")
     time.sleep(1)
@@ -75,6 +75,13 @@ try:
                       完善模糊搜索功能，使用算法而非手动排除
                       Ver.6.1
                       模糊搜索 bug fix
+                      """)
+
+                print("""
+                      Ver.7.0
+                      全面检索谈笑风生对话支持 / 更人性化的模糊搜索
+                      Ver.7.1
+                      模糊搜索全面改版，更加精确
                       """)
                 print('-' * 10)
             else:
@@ -204,12 +211,9 @@ try:
                     try:
                         pool = list(translations.keys())
 
-                        element = list(req)
-
-                        for seek in element:
-                            indices = [i for i, s in enumerate(pool) if seek in s]
-                            tar1 = int(indices[-1])
-                            tar2 = int(indices[0])
+                        indices = [i for i, s in enumerate(pool) if req in s]
+                        tar1 = int(indices[-1])
+                        tar2 = int(indices[0])
 
                         print(f"无 \"{req}\" 条目。请重新输入")
                         print(dedent(f"""
