@@ -40,6 +40,9 @@ This is a simple project maintained by a 蛤丝.
 * Ver.6.1
 模糊搜索 bug fix
 
+* Ver.7.0
+全面检索谈笑风生对话支持 / 更人性化的模糊搜索
+
 ## Info
 
 **Please contribute if you wish to.**
