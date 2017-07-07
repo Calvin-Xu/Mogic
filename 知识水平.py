@@ -29,7 +29,7 @@ try:
         while True:
             req = input("输入: ")
 
-            if req == "/help":
+            if req == "/help" or req == "／help":
                 print('-' * 10)
                 print("""
                       Ver.1.0:
@@ -80,7 +80,7 @@ try:
                 pass
 
 
-            if req == "/语录":
+            if req == "/语录" or req == "／语录":
                 print('-' * 10)
                 print("长者 (前国家领导人江泽民) 语录 (中英对照):")
                 for ori, trans in list(translations.items()):
@@ -119,7 +119,7 @@ try:
                 pass
 
 
-            if req == "/三篇":
+            if req == "/三篇" or req == "／三篇":
                 print("""
                       视察二院，请按 1
                       怒斥记者，请按 2
@@ -142,7 +142,7 @@ try:
                     print("----------加载中...谈笑风生----------\n")
                     for quote in urlopen("https://raw.githubusercontent.com/Calvin-Xu/Mogic/master/quote3.txt", context=context).readlines():
                             print(str(quote, encoding="utf-8"))
-                            time.sleep(0.1)
+                            time.sleep(0.5)
 
                 else:
                     pass
