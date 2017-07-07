@@ -156,6 +156,7 @@ try:
                 if result:
                     print("English: ")
                     print(result)
+                    print('-' * 10)
                 # elif "邓小平" in req:
                 #     print(f"无 \"{req}\" 条目。请重新输入")
                 #     print("你可能找的是\"邓小平的理论\"（原话如此）。")
@@ -212,9 +213,12 @@ try:
                         print(dedent(f"""
                              你可能找的是
                              \"{pool[tar1]}\" (按1)
+
                              或
+
                              \"{pool[tar2]}\" (按2)
-                             (原话如此）。
+
+                             (原话如此, 两者都不是请按回车键）。
                              """))
                         print('-' * 10)
 
@@ -222,9 +226,11 @@ try:
                         if fallback == "1":
                             one = pool[tar1]
                             print(translations.get(one))
+                            print('-' * 10)
                         elif fallback == "2":
                             two = pool[tar2]
                             print(translations.get(two))
+                            print('-' * 10)
                         else:
                             pass
 
