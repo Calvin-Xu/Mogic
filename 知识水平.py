@@ -85,7 +85,9 @@ try:
                 print('-' * 10)
                 print("长者 (前国家领导人江泽民) 语录 (中英对照):")
                 for ori, trans in list(translations.items()):
-                    print(f"{ori} <----> {trans}")
+                    print(ori)
+                    print()
+                    print(trans)
                     time.sleep(0.3)
                 print('-' * 10)
             else:
@@ -222,7 +224,7 @@ try:
                              """))
                         print('-' * 10)
 
-                        fallback = input("输入: ")
+                        fallback = input(">> ")
                         if fallback == "1":
                             one = pool[tar1]
                             print(translations.get(one))
