@@ -198,10 +198,12 @@ try:
                             tar2 = int(indices[0])
 
                         print(f"无 \"{req}\" 条目。请重新输入")
-                        print(dedent(f"""你可能找的是
-                                     \"{pool[tar1]}\" 或
-                                     \"{pool[tar2]}\"
-                                     (原话如此）。"""))
+                        print(dedent(f"""
+                             你可能找的是
+                             \"{pool[tar1]}\" 或
+                             \"{pool[tar2]}\"
+                             (原话如此）。
+                             """))
                         print('-' * 10)
                     except IndexError:
                         print("模糊搜索无效，请重新输入，提供更多关键词。")
