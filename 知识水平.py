@@ -148,7 +148,7 @@ try:
                     pass
 
 
-            if req != "/help" and req != "/语录" and req != "e" and req != "r" and req != "/三篇":
+            if req != "/help" and req != "/语录" and req != "e" and req != "r" and req != "/三篇" and req != "／help" and req != "／三篇" and req != "／语录":
                 print('-' * 10)
                 print(f"你输入了: \"{req}\"")
                 result = translations.get(req)
