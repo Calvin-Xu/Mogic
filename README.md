@@ -4,6 +4,8 @@ This is a simple project maintained by a 蛤丝.
 
 > 你们给我搞的这本东西啊，excited！
 
+![Usage](https://github.com/Calvin-Xu/Mogic/blob/master/Usage.gif)
+
 ## Why Use Mogic
 
 * Will run anywhere: All files the script requests are stored on Github server.
