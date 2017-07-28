@@ -4,7 +4,7 @@ This is a simple project maintained by a 蛤丝.
 
 > 你们给我搞的这本东西啊，excited！
 
-![Usage](https://github.com/Calvin-Xu/Mogic/blob/master/Usage.gif)
+![Usage](https://github.com/Calvin-Xu/Mogic/blob/master/Assets/Usage.gif)
 
 ## Why Use Mogic
 
@@ -53,4 +53,4 @@ C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxu
 
 天若有情天亦老，请为项目续一秒
 
-![The Elderly](https://github.com/Calvin-Xu/Mogic/blob/master/Moha1.gif)
+![The Elderly](https://github.com/Calvin-Xu/Mogic/blob/master/Assets/TheElderly.gif)
