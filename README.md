@@ -47,7 +47,9 @@ This is a simple project maintained by a 蛤丝.
 
 ## Info
 
-**Please contribute if you wish to.**
+This is a simple project built around a busy loop. It is meant to be small and straightforward. However it has accommodated far too many features.
+
+**Any contribution is welcomed.**
 
 C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxuab/Knowledge_base)
 
