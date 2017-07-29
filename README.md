@@ -47,7 +47,7 @@ This is a simple project maintained by a 蛤丝.
 
 ## Info
 
-This is a simple project built around a busy loop. It is meant to be small and straightforward. However it has accommodated far too many features.
+This is a simple script built around a busy loop. It is meant to be small and straightforward, but has since accommodated far too many features.
 
 **Any contribution is welcomed.**
 
