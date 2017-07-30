@@ -53,6 +53,8 @@ This is a simple script built around a busy loop. It is meant to be small and st
 
 C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxuab/Knowledge_base)
 
+My other project: [Precarious!](https://github.com/Calvin-Xu/Precarious_Game)
+
 天若有情天亦老，请为项目续一秒
 
 ![The Elderly](https://github.com/Calvin-Xu/Mogic/blob/master/Assets/TheElderly.gif)
