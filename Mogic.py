@@ -173,42 +173,42 @@ try:
                 #     print(f"无 \"{req}\" 条目。请重新输入")
                 #     print("你可能找的是\"邓小平的理论\"（原话如此）。")
                 #     print(translations.get("邓小平的理论"))
-                elif "欧盟" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"欧盟呢最近发表了一个报告\"（原话如此）。")
-                    print(translations.get("欧盟呢最近发表了一个报告"))
-                # elif "选举" in req:
+                # elif "欧盟" in req:
                 #     print(f"无 \"{req}\" 条目。请重新输入")
-                #     print("你可能找的是\"选举的法\"（原话如此）。")
-                #     print(translations.get("选举的法"))
-                elif "天堂" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"天堂的下面是你们的天堂\"（原话如此）。")
-                    print(translations.get("天堂的下面是你们的天堂"))
-                elif "识得" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"识得唔识得啊\"（原话如此）。")
-                    print(translations.get("识得唔识得啊"))
-                elif "得罪" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"我今天得罪了你们一下\"（原话如此）。")
-                    print(translations.get("我今天得罪了你们一下"))
-                elif "生气" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"我生气了！\"（原话如此）。")
-                    print(translations.get("我生气了！"))
-                elif "经验" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"人生的经验\"（原话如此）。")
-                    print(translations.get("人生的经验"))
-                elif "华莱士" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"美国的华莱士\"（原话如此）。")
-                    print(translations.get("美国的华莱士"))
-                elif "批判" in req:
-                    print(f"无 \"{req}\" 条目。请重新输入")
-                    print("你可能找的是\"就把我批判一番\"（原话如此）。")
-                    print(translations.get("就把我批判一番"))
+                #     print("你可能找的是\"欧盟呢最近发表了一个报告\"（原话如此）。")
+                #     print(translations.get("欧盟呢最近发表了一个报告"))
+                # # elif "选举" in req:
+                # #     print(f"无 \"{req}\" 条目。请重新输入")
+                # #     print("你可能找的是\"选举的法\"（原话如此）。")
+                # #     print(translations.get("选举的法"))
+                # elif "天堂" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"天堂的下面是你们的天堂\"（原话如此）。")
+                #     print(translations.get("天堂的下面是你们的天堂"))
+                # elif "识得" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"识得唔识得啊\"（原话如此）。")
+                #     print(translations.get("识得唔识得啊"))
+                # elif "得罪" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"我今天得罪了你们一下\"（原话如此）。")
+                #     print(translations.get("我今天得罪了你们一下"))
+                # elif "生气" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"我生气了！\"（原话如此）。")
+                #     print(translations.get("我生气了！"))
+                # elif "经验" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"人生的经验\"（原话如此）。")
+                #     print(translations.get("人生的经验"))
+                # elif "华莱士" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"美国的华莱士\"（原话如此）。")
+                #     print(translations.get("美国的华莱士"))
+                # elif "批判" in req:
+                #     print(f"无 \"{req}\" 条目。请重新输入")
+                #     print("你可能找的是\"就把我批判一番\"（原话如此）。")
+                #     print(translations.get("就把我批判一番"))
 
                 else:
                     try:
