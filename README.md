@@ -40,7 +40,7 @@ This is a simple project maintained by a 蛤丝.
 网络连接错误提示
 * Ver.6.0.0
 完善模糊搜索功能，使用算法而非手动排除
-* Ver.6.1.o
+* Ver.6.1.0
 模糊搜索 bug fix
 * Ver.7.0.0
 全面检索谈笑风生对话支持 / 更人性化的模糊搜索
