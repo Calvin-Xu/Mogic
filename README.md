@@ -40,20 +40,13 @@ This is a simple project maintained by a 蛤丝.
 网络连接错误提示
 * Ver.6.0.0
 完善模糊搜索功能，使用算法而非手动排除
-<<<<<<< HEAD
-* Ver.6.1.o
-=======
 * Ver.6.1.0
->>>>>>> 724682a939b783edbd48b055d4e19b2e1bf7ba93
 模糊搜索 bug fix
 * Ver.7.0.0
 全面检索谈笑风生对话支持 / 更人性化的模糊搜索
 * Ver.7.1.0
-<<<<<<< HEAD
 模糊搜索全面改版，更加精确
 * Ver.8.00
-=======
->>>>>>> 724682a939b783edbd48b055d4e19b2e1bf7ba93
 模糊搜索全面改版，更加精确
 * Ver.8.00
 [Java 移植版本](https://github.com/Calvin-Xu/Mogic_Java)
@@ -66,8 +59,6 @@ This is a simple script built around a busy loop. It is meant to be small and st
 **Any contribution is welcomed.**
 
 C++ Version being developed by rh_hu: [Knowledge Base](https://github.com/huyuxuab/Knowledge_base)
-
-My other project: [Precarious!](https://github.com/Calvin-Xu/Precarious_Game)
 
 天若有情天亦老，请为项目续一秒
 
