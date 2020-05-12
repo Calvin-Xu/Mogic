@@ -1,5 +1,5 @@
 # Mogic_Java
-Java port of Mogic. Complete features. Blurry search implemented differently.
+The original Mogic
 
 # Mogic
 
